@@ -1,4 +1,11 @@
-See Key Resources table in the Methods section of the paper for all datasets included in the anlaysis. 
+See the Key Resources table in the Methods section of the paper for all datasets included in this analysis. 
 In-house sequenced data are provided at GSE252291
 
-https://www.biorxiv.org/content/10.1101/2024.02.23.581766v1
+Manuscript: https://www.biorxiv.org/content/10.1101/2024.02.23.581766v1
+
+- Raw fastq data were collected from all sources. 
+- QC performed. 
+- Aligned and processed using the same pipeline. 
+- A few corrupted sample files were removed during the processing steps
+- After generating the UMAP, samples that seemed to behave as outliers were removed. 
+- The final dataset consisted of 1298 meningioma tumor samples.
